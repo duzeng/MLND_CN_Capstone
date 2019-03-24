@@ -67,3 +67,4 @@ target/
 # R Markdown
 .Rhistory
 .idea
+/reference/deep_tesla/epochs
