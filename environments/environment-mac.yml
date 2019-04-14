@@ -2,11 +2,15 @@ name: ml-capstone
 channels:
   - defaults
 dependencies:
+  - _tflow_select=2.3.0=mkl
+  - absl-py=0.7.0=py37_0
   - appnope=0.1.0=py37_0
+  - astor=0.7.1=py37_0
   - attrs=19.1.0=py_0
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
   - bleach=3.1.0=py37_0
+  - c-ares=1.15.0=h1de35cc_1
   - ca-certificates=2019.1.23=0
   - certifi=2019.3.9=py37_0
   - cycler=0.10.0=py37_0
@@ -16,8 +20,12 @@ dependencies:
   - entrypoints=0.3=py37_0
   - expat=2.2.6=h0a44026_0
   - freetype=2.9.1=hb4e5f40_0
+  - gast=0.2.2=py37_0
   - gettext=0.19.8.1=h15daf44_3
   - glib=2.56.2=hd9629dc_0
+  - grpcio=1.16.1=py37h044775b_1
+  - h5py=2.9.0=py37h3134771_0
+  - hdf5=1.10.4=hfa1e0ec_0
   - icu=58.2=h4b95b61_1
   - intel-openmp=2019.3=199
   - ipykernel=5.1.0=py37h39e3cac_0
@@ -33,6 +41,10 @@ dependencies:
   - jupyter_client=5.2.4=py37_0
   - jupyter_console=6.0.0=py37_0
   - jupyter_core=4.4.0=py37_0
+  - keras=2.2.4=0
+  - keras-applications=1.0.7=py_0
+  - keras-base=2.2.4=py37_0
+  - keras-preprocessing=1.0.9=py_0
   - kiwisolver=1.0.1=py37h0a44026_0
   - libcxx=4.0.1=hcfea43d_1
   - libcxxabi=4.0.1=hcfea43d_1
@@ -41,13 +53,16 @@ dependencies:
   - libgfortran=3.0.1=h93005f0_2
   - libiconv=1.15=hdd342a3_7
   - libpng=1.6.36=ha441bb4_0
+  - libprotobuf=3.6.1=hd9629dc_0
   - libsodium=1.0.16=h3efe00b_0
+  - markdown=3.0.1=py37_0
   - markupsafe=1.1.1=py37h1de35cc_0
   - matplotlib=3.0.3=py37h54f8f79_0
   - mistune=0.8.4=py37h1de35cc_0
   - mkl=2019.3=199
   - mkl_fft=1.0.10=py37h5e564d8_0
   - mkl_random=1.0.2=py37h27c97d8_0
+  - mock=2.0.0=py37_0
   - nbconvert=5.4.1=py_2
   - nbformat=4.4.0=py37_0
   - ncurses=6.1=h0a44026_1
@@ -60,12 +75,14 @@ dependencies:
   - pandocfilters=1.4.2=py37_1
   - parso=0.3.4=py37_0
   - patsy=0.5.1=py37_0
+  - pbr=5.1.3=py_0
   - pcre=8.43=h0a44026_0
   - pexpect=4.6.0=py37_0
   - pickleshare=0.7.5=py37_0
   - pip=19.0.3=py37_0
   - prometheus_client=0.6.0=py37_0
   - prompt_toolkit=2.0.9=py37_0
+  - protobuf=3.6.1=py37h0a44026_0
   - ptyprocess=0.6.0=py37_0
   - pygments=2.3.1=py37_0
   - pyparsing=2.3.1=py37_0
@@ -74,6 +91,7 @@ dependencies:
   - python=3.7.2=haf84260_0
   - python-dateutil=2.8.0=py37_0
   - pytz=2018.9=py37_0
+  - pyyaml=5.1=py37h1de35cc_0
   - pyzmq=18.0.0=py37h0a44026_0
   - qt=5.9.7=h468cd18_1
   - qtconsole=4.4.3=py37_0
@@ -87,6 +105,11 @@ dependencies:
   - six=1.12.0=py37_0
   - sqlite=3.27.2=ha441bb4_0
   - statsmodels=0.9.0=py37h1d22016_0
+  - tensorboard=1.13.1=py37haf313ee_0
+  - tensorflow=1.13.1=mkl_py37h70c3834_0
+  - tensorflow-base=1.13.1=mkl_py37h66b1bf0_0
+  - tensorflow-estimator=1.13.0=py_0
+  - termcolor=1.1.0=py37_1
   - terminado=0.8.1=py37_1
   - testpath=0.4.2=py37_0
   - tk=8.6.8=ha441bb4_0
@@ -94,9 +117,11 @@ dependencies:
   - traitlets=4.3.2=py37_0
   - wcwidth=0.1.7=py37_0
   - webencodings=0.5.1=py37_1
+  - werkzeug=0.14.1=py37_0
   - wheel=0.33.1=py37_0
   - widgetsnbextension=3.4.2=py37_0
   - xz=5.2.4=h1de35cc_4
+  - yaml=0.1.7=hc338f04_2
   - zeromq=4.3.1=h0a44026_3
   - zlib=1.2.11=h1de35cc_3
 prefix: /Users/duzengrass/tools/anaconda3/envs/ml-capstone
